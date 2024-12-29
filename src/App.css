@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  width: calc(100% - 22px); /* input takes up full width of parent minus any padding*/
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.empty-image-slot {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.empty-image-slot {
+width: 100%;
+height: 0;
+padding-bottom: 75%; /*Maintain aspect ratio for empty slots*/
+border: 2px dashed #ccc;
+background-color: #f9f9f9;
+}
+
+.output {
+  margin-top: 20px;
+  text-align: left;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.recipe-text {
+  max-width: 100%;
+  padding: 10%;
+  box-sizing: border-box; /*Ensures padding included in width calc*/
+  word-wrap: break-word;
+  overflow-y: auto;
+  font-size: calc(12px + 0.5vw); /*Responsive font size*/
+  line-height: 1.6; /*improve readability*/
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
