@@ -1,6 +1,6 @@
 ### Spring AI UI 
 
-User interface for Java Spring AI Backend. This service is essentially a wrapper for OpenAI (And eventually hugging face for MusicGen).
+User interface for (Java Spring AI Backend)[https://github.com/Step-henC/spring-boot-ai]. This service is essentially a wrapper for OpenAI (And eventually hugging face for MusicGen).
 
 
 # Run Locally
